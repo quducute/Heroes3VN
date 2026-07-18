@@ -18,13 +18,13 @@ Heroes 3 là một tựa game huyền thoại, nhưng đối với người mớ
 ## ✨ Tính năng
 
 - **5 phiên bản Heroes 3** với icon và màu nhận diện riêng:
-  - **Complete (SoD + AB + RoE)** — bản chính thức cuối cùng, nền tảng để cài mọi mod
+  - **Complete (SoD + AB + RoE)** — bản chính thức cuối cùng, nền tảng để cài thêm mọi thứ
   - **Horn of the Abyss (HotA)** — chuẩn PvP online, 3 thành mới Cove, Factory, Bulwark
-  - **ERA (tên cũ: In the Wake of Gods — WoG)** — hậu duệ của WoG 3.58f với Mod Browser/Manager
+  - **ERA (tên cũ: In the Wake of Gods — WoG)** — hậu duệ của WoG 3.58f
   - **VCMI** — engine mã nguồn mở đa nền tảng (Windows, Linux, macOS, iOS, Android)
-  - **Heroes Chronicles** — trọn bộ 8 chương campaign + HD Mod (mở khoá chương 9)
+  - **Heroes Chronicles** — series campaign Heroes 3
 - **Hướng dẫn cài đặt từng bước** kèm ảnh minh hoạ (bấm ảnh để phóng to)
-- **Công cụ hỗ trợ**: Heroes 3 Assist, Heroes 3 Viewer, HD Patch, SoD SP Plugin, XXL Plugin...
+- **Công cụ hỗ trợ**: Heroes 3 Assist, Heroes 3 Viewer, HD Patch, SoD SP Plugin...
 - **Template**: 8XM8/8XM8a, Vietnamese Diplomacy, Duel & Jebus Outcast cho PvP online
 - **Tips & Tricks**: mời tướng trong Tavern, TrainerX trong ERA
 - Mọi link mở bằng **trình duyệt mặc định** của máy — an toàn, minh bạch
@@ -35,7 +35,7 @@ Heroes 3 là một tựa game huyền thoại, nhưng đối với người mớ
 1. Vào mục **[Releases](../../releases)** và tải file `Heroes3VN.exe` mới nhất
 2. Chạy trực tiếp — **không cần cài đặt** (bản portable, chỉ 1 file duy nhất)
 
-> Yêu cầu: Windows 10/11. Máy nên cài sẵn WinRar hoặc 7-Zip để giải nén các file tải về.
+> Yêu cầu: Windows 10/11. Máy nên cài sẵn WinRAR hoặc 7-Zip để giải nén các file tải về.
 
 ## 💬 Cộng đồng & Ủng hộ
 

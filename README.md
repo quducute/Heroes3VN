@@ -1,6 +1,6 @@
 # Heroes 3 VN by Gogetto
 
-> Tool lưu trữ link tải (hoặc mua) **Heroes of Might and Magic III** mọi phiên bản, kèm hướng dẫn cài đặt chi tiết bằng Tiếng Việt.
+> Tool lưu trữ link tải (hoặc mua) **Heroes of Might and Magic III** mọi phiên bản, kèm hướng dẫn cài đặt chi tiết bằng tiếng Việt.
 
 ![Electron](https://img.shields.io/badge/Electron-43-47848F?logo=electron&logoColor=white)
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)
@@ -9,11 +9,11 @@
 
 ## 📖 Giới thiệu
 
-Heroes 3 là tựa game huyền thoại nhưng với người mới, việc tìm đúng bản để chơi khá rối: Complete, HotA, ERA/WoG, VCMI, Chronicles... mỗi bản một nguồn tải, một cách cài khác nhau.
+Heroes 3 là một tựa game huyền thoại, nhưng đối với người mới hoặc người chơi cũ mới trở lại, việc tìm đúng phiên bản để chơi khá rắc rối: Complete, HotA, ERA/WoG, VCMI, Chronicles… mỗi bản một nguồn tải, một cách cài khác nhau.
 
 **Heroes 3 VN** gom tất cả về một chỗ: mở tool lên, chọn phiên bản muốn chơi, bấm nút là ra đúng link tải/mua chính thức cùng hướng dẫn cài đặt từng bước kèm ảnh minh hoạ — tất cả bằng tiếng Việt.
 
-> ℹ️ Tool **chỉ lưu trữ link** đến các nguồn chính thức (GOG, trang chủ mod,...), không phát tán file game lậu.
+> ℹ️ Tool **chỉ lưu trữ link** đến các nguồn chính thức (GOG, trang chủ…), không phát tán file game lậu.
 
 ## ✨ Tính năng
 
@@ -44,7 +44,5 @@ Heroes 3 là tựa game huyền thoại nhưng với người mới, việc tìm
 
 ## 🙏 Credits
 
-- Nội dung & tổng hợp link: **Gogetto**
-- Link các phiên bản lấy từ nguồn chính thức, nói không với link lậu.
-- Xây dựng bằng [React](https://react.dev) + [Vite](https://vitejs.dev) + [Electron](https://electronjs.org).
+- Tool được xây dựng bằng [React](https://react.dev) + [Vite](https://vitejs.dev) + [Electron](https://electronjs.org).
 - Heroes of Might and Magic® III thuộc bản quyền của Ubisoft Entertainment. Tool này là dự án phi lợi nhuận của cộng đồng, không liên kết với Ubisoft.

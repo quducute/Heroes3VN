@@ -20,10 +20,11 @@ Heroes 3 là một tựa game huyền thoại, nhưng đối với người mớ
   - **Horn of the Abyss (HotA)**
   - **ERA (tên cũ: In the Wake of Gods — WoG)**
   - **VCMI — engine mã nguồn mở đa nền tảng (Windows, Linux, macOS, iOS, Android)**
-  - **Heroes Chronicles** — series campaign Heroes 3
-- Tài nguyên Heroes 3 phong phú: HoMM 3 HD, plugin, templates, tools, web hữu ích...
+  - **Chronicles** — series campaign Heroes 3
+- Tài nguyên Heroes 3 phong phú: HoMM 3 HD, plugin, maps, templates, tools, tài nguyên hữu ích...
 - Mọi link mở bằng trình duyệt mặc định của máy — an toàn, minh bạch
 - Theo dõi version mới nhất của các bản Heroes 3
+- Mục FAQ giải đáp thắc mắc của đa số người dùng
 - Check update tự động
 
 ## 📥 Tải về

@@ -1,6 +1,6 @@
 # Heroes 3 VN by Gogetto
 
-_Tool lưu trữ link tải/mua **Heroes of Might and Magic III** mọi phiên bản, kèm hướng dẫn cài đặt chi tiết bằng tiếng Việt._
+_Tool lưu trữ link tải/mua **Heroes of Might and Magic III** mọi phiên bản, kèm hướng dẫn cài đặt chi tiết bằng tiếng Việt, xây dựng bằng **[React](https://react.dev) + [Vite](https://vitejs.dev) + [Electron](https://electronjs.org)**._
 
 ---
 
@@ -25,14 +25,13 @@ Heroes 3 là một tựa game huyền thoại, nhưng đối với người mớ
 - Mọi link mở bằng trình duyệt mặc định của máy — an toàn, minh bạch
 - Theo dõi version mới nhất của các bản Heroes 3
 - Mục FAQ giải đáp thắc mắc của đa số người dùng
+- Bảng mã cheat Heroes 3 mọi phiên bản tiện lợi cho việc tra cứu
 - Check update tự động
 
 ## 📥 Tải về
 
 1. Vào mục **[Releases](../../releases)** và tải file `Heroes3VN.exe` mới nhất
 2. Chạy trực tiếp — **không cần cài đặt** (bản portable, chỉ 1 file duy nhất)
-
-> Yêu cầu: Windows 10/11. Máy cần cài sẵn WinRAR hoặc 7-Zip để giải nén các file tải về từ các link của tool.
 
 ## 💬 Cộng đồng & Ủng hộ
 
@@ -41,5 +40,4 @@ Heroes 3 là một tựa game huyền thoại, nhưng đối với người mớ
 
 ## 🙏 Credits
 
-- Tool được xây dựng bằng [React](https://react.dev) + [Vite](https://vitejs.dev) + [Electron](https://electronjs.org).
 - Heroes of Might and Magic® III thuộc bản quyền của Ubisoft Entertainment. Tool này là dự án phi lợi nhuận làm tặng cộng đồng, không liên kết với Ubisoft hay bất kỳ tổ chức nào.

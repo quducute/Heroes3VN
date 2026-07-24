@@ -1,42 +1,44 @@
 # Heroes 3 VN by Gogetto
 
-_Tool lưu trữ link tải/mua **Heroes of Might and Magic III** mọi phiên bản, kèm hướng dẫn cài đặt chi tiết bằng tiếng Việt, xây dựng bằng **[React](https://react.dev) + [Vite](https://vitejs.dev) + [Electron](https://electronjs.org)**._
+_Tool lưu trữ link tải/mua **Heroes of Might and Magic III** mọi phiên bản, kèm hướng dẫn cài đặt chi tiết bằng tiếng Việt._
 
 ---
 
 ## 📖 Giới thiệu
 
-Heroes 3 là một tựa game huyền thoại, nhưng đối với người mới hoặc người chơi cũ mới trở lại, việc tìm đúng phiên bản để chơi khá rắc rối: Complete, HotA, ERA/WoG, VCMI, Chronicles… mỗi bản một nguồn tải, một cách cài khác nhau.
+**Heroes 3** là một tựa game huyền thoại, nhưng đối với người mới hoặc người chơi cũ mới trở lại, việc tìm đúng chỗ tải game khá rắc rối: **Complete/SoD, HotA, ERA/WoG, VCMI, Chronicles,** mỗi bản một nguồn tải, một cách cài đặt khác nhau.
 
-**Heroes 3 VN** gom tất cả về một chỗ: mở tool lên, chọn phiên bản muốn chơi, bấm nút là ra đúng link tải/mua chính thức cùng với hướng dẫn cài đặt.
+**Heroes 3 VN** ra đời nhằm gom tất cả về một chỗ: mở tool lên, chọn phiên bản muốn chơi, bấm nút là ra đúng link tải/mua chính thức cùng với hướng dẫn cài đặt.
 
-> ℹ️ Tool **chỉ lưu trữ link** đến các nguồn chính thức (GOG, trang chủ…), không phát tán file game lậu.
+Tool được xây dựng bằng **[React](https://react.dev) + [Vite](https://vitejs.dev) + [Electron](https://electronjs.org)**.
+
+> **Lưu ý:** Tool này chỉ lưu trữ link đến các nguồn chính thức (GOG, trang chủ của mod…), không phát tán file game lậu.
 
 ## ✨ Tính năng
 
-- Giao diện phù hợp với Heroes 3, nhìn là ưng
 - 5 phiên bản Heroes 3 phổ biến nhất kèm hướng dẫn cài đặt từng bước:
-  - **Complete (SoD + AB + RoE)**
-  - **Horn of the Abyss (HotA)**
-  - **ERA (tên cũ: In the Wake of Gods — WoG)**
+  - **Complete — SoD + AB + RoE**
+  - **Horn of the Abyss — HotA**
+  - **ERA — tên cũ: In the Wake of Gods (WoG)**
   - **VCMI — engine mã nguồn mở đa nền tảng (Windows, Linux, macOS, iOS, Android)**
-  - **Chronicles** — series campaign Heroes 3
-- Tài nguyên Heroes 3 phong phú: HoMM 3 HD, plugin, maps, templates, tools, tài nguyên hữu ích...
-- Mọi link mở bằng trình duyệt mặc định của máy — an toàn, minh bạch
-- Theo dõi version mới nhất của các bản Heroes 3
-- Mục FAQ giải đáp thắc mắc của đa số người dùng
+  - **Chronicles — series campaign Heroes 3**
+- Giao diện tool phù hợp với Heroes 3, nhìn là thấy hoài niệm
+- Tài nguyên Heroes 3 phong phú: HoMM3 HD Patch, plugin, maps, templates, tools, tài nguyên hữu ích...
 - Bảng mã cheat Heroes 3 mọi phiên bản tiện lợi cho việc tra cứu
-- Check update tự động
+- Mọi link mở bằng trình duyệt mặc định của máy (hoặc copy link để mở bằng trình duyệt tùy chọn) — an toàn, minh bạch
+- Theo dõi version mới nhất của các bản Heroes 3 — tool hiển thị ngay khi có bản mới
+- Mục FAQ giải đáp thắc mắc của đa số người dùng
+- Check update tool tự động khi mở lên
 
 ## 📥 Tải về
 
-1. Vào mục **[Releases](../../releases)** và tải file `Heroes3VN.exe` mới nhất
-2. Chạy trực tiếp — **không cần cài đặt** (bản portable, chỉ 1 file duy nhất)
+1. Vào mục **[Releases](../../releases)** và tải file _**`Heroes3VN.exe`**_ mới nhất
+2. Chạy trực tiếp, không cần cài đặt (chỉ 1 file exe portable duy nhất)
 
-## 💬 Cộng đồng & Ủng hộ
+## 👥 Cộng đồng & Ủng hộ
 
-- 👥 **Group Facebook**: [Heroes 3 VN](https://www.facebook.com/groups/hero3)
-- 💛 **Donate**: quét mã QR VietinBank trong tool (nút Donate ở góc trái dưới)
+- **Group Facebook: _<https://www.facebook.com/groups/hero3>_**
+- **Donate:** quét mã QR **_VietinBank_** trong tool (nút Donate ở góc trái bên dưới)
 
 ## 🙏 Credits
 

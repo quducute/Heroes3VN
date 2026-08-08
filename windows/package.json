@@ -1,0 +1,57 @@
+{
+  "name": "heroes3vn",
+  "productName": "Heroes 3 VN by Gogetto",
+  "version": "2026.08.08",
+  "description": "Tool lưu trữ link tải/mua Heroes 3 mọi phiên bản",
+  "author": "Gogetto",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "npm run build && electron .",
+    "dist": "npm run build && electron-builder --win && node scripts/renameArtifact.cjs"
+  },
+  "dependencies": {
+    "@fontsource/luxurious-roman": "^5.3.0",
+    "@fontsource/roboto": "^5.3.0",
+    "country-flag-icons": "^1.6.20",
+    "lucide-react": "^1.30.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.5",
+    "electron": "^43.3.0",
+    "electron-builder": "^26.15.7",
+    "vite": "^8.2.1"
+  },
+  "build": {
+    "appId": "vn.gogetto.heroes3",
+    "productName": "Heroes 3 VN by Gogetto",
+    "compression": "maximum",
+    "afterPack": "./scripts/afterPack.cjs",
+    "files": [
+      "dist/**",
+      "electron/**",
+      "!node_modules/**"
+    ],
+    "directories": {
+      "output": "release"
+    },
+    "win": {
+      "target": [
+        "portable"
+      ],
+      "icon": "build/icon.ico"
+    },
+    "portable": {
+      "artifactName": "Heroes3VN-Windows-v${version}.exe"
+    }
+  },
+  "allowScripts": {
+    "electron-winstaller@5.4.0": true
+  }
+}

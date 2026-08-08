@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Heroes 3 VN by Gogetto",
+    "slug": "heroes3vn",
+    "version": "2026.08.08",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "heroes3vn",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#15120d"
+    },
+    "android": {
+      "package": "vn.gogetto.heroes3",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#15120d"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "vn.gogetto.heroes3",
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": ""
+      }
+    }
+  }
+}

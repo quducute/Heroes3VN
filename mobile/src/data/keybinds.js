@@ -1,0 +1,226 @@
+export const KEYBINDS_BASE = [
+  {
+    section: "Màn hình phiêu lưu (Adventure Screen)",
+    rows: [
+      ["A", "Menu tuỳ chọn phụ (Xem bản đồ, Đào đất, Xem lại lượt đối thủ...)"],
+      ["B", "Huỷ di chuyển"],
+      ["C", "Niệm phép"],
+      ["D", "Đào tìm Grail"],
+      ["E", "Qua ngày"],
+      ["G", "Mở Den of Thieves (xem thông tin đối thủ)"],
+      ["H", "Chọn tướng kế tiếp"],
+      ["I", "Thông tin màn đang chơi"],
+      ["K", "Tổng quan vương quốc (thành, tướng, tài nguyên)"],
+      ["L", "Load game"],
+      ["M", "Cho tướng đi theo lộ trình đã chọn"],
+      ["N", "Chơi lại màn đang chơi từ đầu"],
+      ["O", "Tuỳ chọn hệ thống"],
+      ["P", "Bản đồ ghép hình tìm kho báu Grail (Puzzle Map)"],
+      ["Q", "Quest log"],
+      ["R", "Hiện phạm vi Dimension Door quanh tâm màn hình"],
+      ["S", "Save game"],
+      ["T", "Chọn thành kế tiếp"],
+      ["U", "Chuyển giữa lòng đất và mặt đất"],
+      ["V", "Xem toàn bản đồ"],
+      ["W", "Đánh thức tướng"],
+      ["Z", "Cho tướng ngủ"],
+      ["F5", "Thanh công cụ (bật lưới và các công cụ khác)"],
+      ["1 / 2", "Chọn phương án trong hộp thoại có lựa chọn"],
+      ["Enter", "Mở chi tiết tướng/thành"],
+      ["Shift + Nhấp trái tướng", "Chọn tướng đó làm tướng hiện hành"],
+      ["Space", "Vào lại chỗ tướng đang đứng"],
+      ["Alt + Shift + Nhấp trái tướng", "Giải tán tướng"],
+      ["Giữ Alt + rê chuột lên ô", "Xem số điểm di chuyển cần để tới ô đó"],
+    ],
+  },
+  {
+    section: "Màn hình trao đổi giữa 2 tướng (Heroes Meeting Screen)",
+    rows: [
+      ["Q", "Đổi cả quân và đồ"],
+      ["X / F11", "Đổi đồ"],
+      ["Z / F10", "Đổi quân"],
+    ],
+  },
+  {
+    section: "Màn hình quản lý tướng (Hero Management)",
+    rows: [["Shift + Nhấp ô trang bị", "Hiện đồ phù hợp trong ba lô cho ô đó"]],
+  },
+  {
+    section: "Màn hình thành (Town Screen)",
+    rows: [
+      ["T", "Quán rượu (Tavern)"],
+      ["S / Space", "Đổi tướng"],
+      ["Z / F10", "Đổi đội quân đồn trú (garrison)"],
+      ["D", "Sau khi nhấp một stack quân: chọn ô để chia stack"],
+      ["M", "Khi tuyển quân: chọn số lượng tối thiểu/tối đa"],
+      [
+        "1 / 2 + Space",
+        "Trong Tavern: chọn tướng bằng 1/2 rồi tuyển bằng Space",
+      ],
+      [
+        "1–4 + Space",
+        "Trong University: chọn kỹ năng bằng số rồi mua bằng Space/Enter",
+      ],
+      [
+        "1–8 + Space",
+        "Trong bảng tuyển quân: chọn lính bằng số rồi tuyển bằng Space",
+      ],
+      ["Alt + Shift + Nhấp trái tướng", "Giải tán tướng"],
+      ["Mũi tên ↑/↓", "Chuyển sang thành trước/sau"],
+    ],
+  },
+  {
+    section: "Màn hình chiến đấu (Combat Screen)",
+    rows: [
+      ["A", "Tự động đánh (Autocombat)"],
+      ["C", "Mở sách phép"],
+      ["C (trong sách phép)", "Chuyển sang tab phép chiến đấu"],
+      ["A (trong sách phép)", "Chuyển sang tab phép bản đồ phiêu lưu"],
+      ["Mũi tên ←/→ (trong sách phép)", "Lật trang sách phép"],
+      ["Esc / Enter (trong sách phép)", "Thoát sách phép"],
+      ["D / Space", "Phòng thủ"],
+      ["W", "Chờ (Wait)"],
+      ["F", "Phép của quái (vd Faerie Dragon)"],
+      ["G", "Đòn đánh diện rộng hoặc phép của quái"],
+      ["H", "Mở nhật ký chiến đấu (Esc/Space/Enter để đóng)"],
+      ["I", "Bật/tắt bảng chỉ số tướng"],
+      ["O", "Mở menu Tuỳ chọn chiến đấu"],
+      ["L (trong Tuỳ chọn chiến đấu)", "Tải game"],
+      ["M (trong Tuỳ chọn chiến đấu)", "Về Menu chính"],
+      ["R (trong Tuỳ chọn chiến đấu)", "Chơi lại màn (Restart)"],
+      [
+        "Esc / Enter / Space (trong Tuỳ chọn chiến đấu)",
+        "Thoát Tuỳ chọn chiến đấu",
+      ],
+      ["R", "Bỏ chạy (Retreat)"],
+      ["S", "Đầu hàng (Surrender)"],
+      ["T", "Xem thông tin stack quân hiện tại"],
+      ["Z", "Bật/tắt thanh thứ tự lượt đi"],
+      ["Alt", "Đổi giữa chế độ đánh và di chuyển"],
+      ["Mũi tên ↑/↓", "Cuộn thông báo chiến đấu"],
+      ["F6", "Bật/tắt lưới ô (hex grid)"],
+      ["F7", "Bật/tắt bóng con trỏ chuột"],
+      ["F8", "Bật/tắt bóng phạm vi di chuyển"],
+    ],
+  },
+];
+
+export const KEYBINDS_HD = [
+  {
+    section: "Màn hình phiêu lưu (Adventure Screen)",
+    rows: [
+      [
+        "Alt + Nhấp biểu tượng tướng/thành",
+        "Đưa tướng/thành lên đầu danh sách",
+      ],
+      [
+        "Chuột giữa / F5",
+        "Mở menu nhanh (chợ, hội trộm, quick combat, vùng Dimension Door, xem lại lượt, bật lưới ô)",
+      ],
+      [
+        "Rê chuột lên chân dung tướng",
+        "Xem số điểm di chuyển còn lại của tướng",
+      ],
+      [
+        "Nhấp phải cột xanh cạnh chân dung tướng",
+        "Xem số điểm di chuyển còn lại của tướng (dạng số)",
+      ],
+      ["B", "Mở chợ (Marketplace)"],
+      ["G", "Mở hội trộm (Thieves' Guild)"],
+      ["Lăn chuột", "Cuộn danh sách thành"],
+    ],
+  },
+  {
+    section: "Màn hình trao đổi giữa 2 tướng (Heroes Meeting Screen)",
+    rows: [
+      ["F10", "Đổi toàn bộ quân giữa 2 tướng"],
+      ["Giữ Alt khi chuyển quân", "Chuyển toàn bộ quân trừ 1 lính của stack"],
+      ["Giữ Ctrl khi chuyển quân", "Chuyển 1 lính sang ô trống"],
+      ["Giữ Shift khi chuyển quân", "Chuyển 1 lính sang ô có cùng loại lính"],
+      ["Mũi tên →", "Đóng cửa sổ và chọn tướng bên phải"],
+      ["Lăn chuột", "Cuộn xem đồ trong ba lô"],
+    ],
+  },
+  {
+    section: "Quản lý quân nhanh (Quick Army Management)",
+    rows: [
+      [
+        "Shift + Nhấp quân",
+        "Chia stack theo tỉ lệ thông minh (bỏ qua lính lẻ)",
+      ],
+      ["Alt + Nhấp quân", "Gộp tất cả stack cùng loại"],
+      ["Alt + Shift + Nhấp quân", "Giải tán stack đang chọn"],
+      ["Ctrl + Nhấp quân", "Tách 1 lính sang ô trống"],
+      ["Ctrl + Shift + Nhấp quân", "Tách 1 lính ra tất cả ô trống"],
+      ["Ctrl + Alt + Nhấp quân", "Chuyển stack sang tướng kia"],
+      ["Ctrl + Alt + Shift + Nhấp quân", "Chuyển toàn bộ quân sang tướng"],
+    ],
+  },
+  {
+    section: "Quản lý đồ nhanh (Quick Artifacts Management)",
+    rows: [
+      ["Ctrl + Nhấp đồ", "Chuyển đồ sang tướng kia và mặc luôn"],
+      ["Shift + Nhấp đồ", "Chuyển đồ vào ba lô của tướng kia"],
+      ["Alt + Nhấp đồ", "Chuyển đồ giữa ô trang bị và ba lô"],
+    ],
+  },
+  {
+    section: "Bộ trang bị (Costumes)",
+    rows: [
+      ["Ctrl + 1–9", "Lưu bộ trang bị (chỉ ở màn tướng)"],
+      ["1–9", "Trang bị bộ đã lưu (dùng ở màn tướng và phiêu lưu)"],
+      ["0", "Trang bị lại bộ vừa dùng trước đó (tự lưu khi đổi costume)"],
+      ["Shift trái + 1–9", "Trang bị bộ chồng lên trang bị đang mặc"],
+    ],
+  },
+  {
+    section: "Màn hình thành (Town Screen)",
+    rows: [
+      ["B", "Mở chợ (Marketplace)"],
+      ["G", "Mở hội trộm (Thieves' Guild)"],
+      ["F10", "Đổi quân với đội đồn trú"],
+      ["Space", "Đổi tướng, hoặc chuyển tướng vào/ra đội đồn trú"],
+      ["Nhấp biểu tượng thành", "Mua nhanh toàn bộ quân có sẵn"],
+      ["Ctrl + Nhấp biểu tượng thành", "Mua toàn bộ quân, bỏ qua xác nhận"],
+      [
+        "Alt + Nhấp biểu tượng thành",
+        "Mua toàn bộ quân (chưa nâng cấp), bỏ qua xác nhận",
+      ],
+      ["Nhấp biểu tượng lính", "Mua nhanh loại lính đó"],
+      ["Ctrl + Nhấp biểu tượng lính", "Mua loại lính đó, bỏ qua xác nhận"],
+      [
+        "Alt + Nhấp biểu tượng lính",
+        "Mua loại lính đó (chưa nâng cấp), bỏ qua xác nhận",
+      ],
+    ],
+  },
+  {
+    section: "Màn hình chiến đấu (Combat Screen)",
+    rows: [
+      ["L", "Tải game đã lưu"],
+      ["Q", "Kết thúc trận ngay (như auto, không phép, không animation)"],
+      [
+        "Shift + rê chuột lên quân",
+        "Xem tốc độ có tính các quân khác trên sân",
+      ],
+      ["Ctrl + rê chuột lên quân", "Xem tốc độ bỏ qua các quân khác"],
+      [
+        "Nhấp chuột vào quân khi bố trận (Tactics)",
+        "Chọn quân để sắp xếp vị trí",
+      ],
+    ],
+  },
+  {
+    section: "Khác (Miscellaneous)",
+    rows: [
+      ["Chuột giữa / F5 (ở menu chính)", "Mở System Options"],
+      ["Ctrl + C / Ctrl + V", "Copy / dán chữ"],
+      ["Shift + Ins / Ctrl + Ins", "Dán / copy chữ (tổ hợp thay thế)"],
+      ["Lăn chuột", "Điều khiển mọi thanh cuộn (danh sách, ba lô, ...)"],
+      [
+        "Nhấp đúp",
+        "Chọn kỹ năng phụ khi lên cấp, hoặc chọn mục trong hộp thoại",
+      ],
+    ],
+  },
+];

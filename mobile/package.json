@@ -1,0 +1,35 @@
+{
+  "name": "heroes3vn-mobile",
+  "version": "2026.10.01",
+  "description": "Tool lưu trữ link tải/mua Heroes 3 mọi phiên bản",
+  "author": "Gogetto",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~57.0.16",
+    "@expo/vector-icons": "^15.1.1",
+    "country-flag-icons": "^1.6.20",
+    "expo": "~57.0.25",
+    "expo-clipboard": "~57.0.2",
+    "expo-file-system": "~57.0.7",
+    "expo-font": "~57.0.4",
+    "expo-splash-screen": "~57.0.9",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-svg": "15.15.4",
+    "react-native-web": "^0.21.3"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "~57.0.13"
+  },
+  "private": true
+}

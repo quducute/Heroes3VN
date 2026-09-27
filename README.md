@@ -1,6 +1,6 @@
 # _**⚔️ Heroes 3 VN by Gogetto ⚔️**_
 
-[![GitHub Release](https://img.shields.io/github/v/release/quducute/Heroes3VN?style=for-the-badge&logo=github)](https://github.com/quducute/Heroes3VN/releases) [![Windows](https://img.shields.io/badge/Platform-Windows-80B3FF?style=for-the-badge&logo=gitforwindows&logoColor=FFFFFF)](https://vi.wikipedia.org/wiki/Microsoft_Windows) [![Android](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=FFFFFF)](<https://vi.wikipedia.org/wiki/Android_(h%E1%BB%87_%C4%91i%E1%BB%81u_h%C3%A0nh)>) [![VN](https://img.shields.io/badge/Made_in-Vietnam-red?style=for-the-badge&logo=googlemaps&logoColor=FFFFFF)](https://vi.wikipedia.org/wiki/Vi%E1%BB%87t_Nam)
+[![Windows](https://img.shields.io/badge/Platform-Windows-80B3FF?style=for-the-badge&logo=gitforwindows&logoColor=FFFFFF)](https://vi.wikipedia.org/wiki/Microsoft_Windows) [![Android](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=FFFFFF)](<https://vi.wikipedia.org/wiki/Android_(h%E1%BB%87_%C4%91i%E1%BB%81u_h%C3%A0nh)>)
 
 <p align="center">
   <img src="docs/screenshot01.png" alt="Screenshot 01" width="24%" />
@@ -14,16 +14,16 @@
 
 ## 📖 Giới thiệu
 
-**Heroes 3** là một tựa game chiến thuật huyền thoại, nhưng đối với người mới hoặc người chơi cũ mới trở lại, việc tìm đúng chỗ tải game vô cùng rắc rối: **Complete/SoD, HotA, ERA/WoG, VCMI, Chronicles…**, mỗi bản một nguồn tải, một cách cài đặt khác nhau; và để giải quyết vấn đề đó, **Heroes 3 VN** đã ra đời. Mọi thứ đã được gom hết lại về một chỗ, chỉ cần mở tool lên và bấm chọn bản muốn chơi là ra đúng link tải/mua chính thức.
+**Heroes 3** là một tựa game chiến thuật huyền thoại, nhưng đối với người mới hoặc người chơi cũ mới trở lại, việc tìm đúng chỗ tải game vô cùng rắc rối: **Complete/SoD, HotA, ERA/WoG, VCMI, Chronicles…**, mỗi bản một nguồn tải, một cách cài đặt khác nhau; và để giải quyết vấn đề đó, **Heroes 3 VN** đã ra đời. Mọi thứ đã được gom hết lại ở một chỗ; chỉ cần mở tool lên và bấm chọn bản muốn chơi là ra đúng link tải/mua chính thức.
 
 > [!NOTE]
-> Tool này chỉ lưu trữ link từ các nguồn chính thức (GOG, trang chủ của mod…), không phát tán file game lậu.
+> Tool này chỉ lưu trữ link từ các nguồn chính thức (GOG, Steam, trang chủ của mod…), không phát tán file game lậu.
 
 ---
 
 ## 📥 Tải về
 
-[![GitHub Download](https://img.shields.io/github/v/tag/quducute/Heroes3VN?style=for-the-badge&logo=github&label=M%E1%BB%9AI%20NH%E1%BA%A4T)](https://github.com/quducute/Heroes3VN/releases/latest)
+[![GitHub Download](https://img.shields.io/github/v/release/quducute/Heroes3VN?style=for-the-badge&logo=github&label=M%E1%BB%9AI%20NH%E1%BA%A4T)](https://github.com/quducute/Heroes3VN/releases/latest) [![Downloads](https://img.shields.io/github/downloads/quducute/Heroes3VN/total?style=for-the-badge&logo=github&label=T%E1%BB%94NG%20S%E1%BB%90%20L%C6%AF%E1%BB%A2T%20T%E1%BA%A2I)](https://github.com/quducute/Heroes3VN/releases)
 
 > [!TIP]
 > Bấm nút **[MỚI NHẤT]** phía trên hoặc **[Releases](https://github.com/quducute/Heroes3VN/releases/latest)** để vào trang download, sau đó tải file _**`Heroes3VN`**_ mới nhất tương ứng với hệ điều hành đang sử dụng (hiện tại tool đã có mặt trên Windows và Android).
@@ -41,7 +41,6 @@
   - **Chronicles — series campaign Heroes 3**
 - Link mua chính thức trên cả **GOG** (khuyên dùng) và **Steam**
 - Hướng dẫn cài **HD Patch** và **Random Map Templates** cho Complete, HotA, ERA kèm ảnh minh hoạ (bấm vào ảnh để phóng to)
-- **Patch Việt hoá HotA** by Bé Còi Team
 - Có mục FAQ giải đáp những thắc mắc của đa số người dùng
 - Tài nguyên Heroes 3 phong phú: HoMM3 HD Patch, SoD SP Plugin, template hot (8XM8, 8XM8a, Duel, Jebus Outcast) cùng nhiều tài nguyên hữu ích khác
 - Bảng phím tắt Heroes 3 đầy đủ, tiện lợi cho việc tra cứu và sử dụng

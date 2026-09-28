@@ -26,7 +26,7 @@
 [![GitHub Download](https://img.shields.io/github/v/release/quducute/Heroes3VN?style=for-the-badge&logo=github&label=M%E1%BB%9AI%20NH%E1%BA%A4T)](https://github.com/quducute/Heroes3VN/releases/latest) [![Downloads](https://img.shields.io/github/downloads/quducute/Heroes3VN/total?style=for-the-badge&logo=github&label=T%E1%BB%94NG%20S%E1%BB%90%20L%C6%AF%E1%BB%A2T%20T%E1%BA%A2I)](https://github.com/quducute/Heroes3VN/releases)
 
 > [!TIP]
-> Bấm nút **[MỚI NHẤT]** phía trên hoặc **[Releases](https://github.com/quducute/Heroes3VN/releases/latest)** để vào trang download, sau đó tải file _**`Heroes3VN`**_ mới nhất tương ứng với hệ điều hành đang sử dụng (hiện tại tool đã có mặt trên Windows và Android).
+> Bấm nút **[[MỚI NHẤT](https://github.com/quducute/Heroes3VN/releases/latest)]** phía trên hoặc bấm **[[Releases](https://github.com/quducute/Heroes3VN/releases/latest)]** để vào trang download, sau đó tải file _**`Heroes3VN`**_ mới nhất tương ứng với hệ điều hành đang sử dụng (hiện tại tool đã có mặt trên Windows và Android).
 
 ---
 
@@ -94,10 +94,10 @@ npx npm-check-updates -u
 npm install
 ```
 
-| Lệnh            | Công dụng                                                   |
-| --------------- | ----------------------------------------------------------- |
-| `npm run start` | Build rồi mở app test (đầy đủ chức năng)                    |
-| `npm run dist`  | Build rồi đóng gói thành file `.exe` portable ra `release/` |
+| Lệnh            | Công dụng                                             |
+| --------------- | ----------------------------------------------------- |
+| `npm run start` | Build rồi mở app test (đầy đủ chức năng)              |
+| `npm run dist`  | Build rồi đóng gói file `.exe` portable ra `release/` |
 
 ### Bản Mobile
 

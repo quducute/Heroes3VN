@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+release/
+*.exe
+*.apk
+*.aab
+*.ipa
+
+# Expo
+.expo/
+
+# Environment variables
+.env
+!.env.example
+
+# Editor
+.vscode/
+
+# Private scripts and generated artifacts
+private/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini

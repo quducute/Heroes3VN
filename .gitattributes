@@ -1,0 +1,19 @@
+# Text files
+* text=auto eol=lf
+
+# Binary files
+*.webp binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.exe binary
+
+# Verification files
+windows/public/google*.html -text

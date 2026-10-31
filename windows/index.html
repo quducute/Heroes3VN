@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heroes 3 VN by Gogetto</title>
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <script>
+      (() => {
+        const ua = navigator.userAgent;
+        const ios =
+          /iPad|iPhone|iPod/.test(ua) ||
+          (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+        const link = document.createElement("link");
+        link.rel = "manifest";
+        link.href = ios ? "manifest-ios.webmanifest" : "manifest.webmanifest";
+        document.head.appendChild(link);
+      })();
+    </script>
+    <meta name="apple-mobile-web-app-title" content="Heroes 3 VN" />
+    <meta name="application-name" content="Heroes 3 VN" />
+    <meta name="theme-color" content="black" />
+    <meta
+      name="description"
+      content="Tool lưu trữ link tải/mua Heroes 3 mọi phiên bản kèm hướng dẫn cài đặt bằng tiếng Việt."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Heroes 3 VN" />
+    <meta property="og:title" content="Heroes 3 VN by Gogetto" />
+    <meta
+      property="og:description"
+      content="Tool lưu trữ link tải/mua Heroes 3 mọi phiên bản kèm hướng dẫn cài đặt bằng tiếng Việt."
+    />
+    <meta property="og:url" content="https://quducute.github.io/Heroes3VN/" />
+    <meta
+      property="og:image"
+      content="https://quducute.github.io/Heroes3VN/social-preview.jpg"
+    />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="640" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

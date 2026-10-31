@@ -1,0 +1,38 @@
+{
+  "id": "/Heroes3VN/",
+  "name": "Heroes 3 VN",
+  "short_name": "Heroes 3 VN",
+  "description": "Tool lưu trữ link tải/mua Heroes 3 mọi phiên bản kèm hướng dẫn cài đặt bằng tiếng Việt.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "minimal-ui",
+  "background_color": "black",
+  "theme_color": "black",
+  "lang": "vi",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

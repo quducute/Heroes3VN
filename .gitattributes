@@ -1,0 +1,42 @@
+* text=auto eol=lf
+
+*.7z binary
+*.aab binary
+*.apk binary
+*.dmg binary
+*.exe binary
+*.gif binary
+*.gz binary
+*.icns binary
+*.ico binary
+*.ipa binary
+*.jpeg binary
+*.jpg binary
+*.msi binary
+*.otf binary
+*.pdf binary
+*.png binary
+*.rar binary
+*.tgz binary
+*.ttf binary
+*.webp binary
+*.woff binary
+*.woff2 binary
+*.zip binary
+
+*.bat eol=crlf
+*.cjs diff=javascript
+*.cmd eol=crlf
+*.css diff=css
+*.html diff=html
+*.js diff=javascript
+*.jsx diff=javascript
+*.md diff=markdown
+*.mjs diff=javascript
+*.rs diff=rust
+*.svg text
+
+Cargo.lock -diff linguist-generated
+package-lock.json -diff linguist-generated
+
+web/public/google*.html -text

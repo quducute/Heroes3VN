@@ -1,0 +1,148 @@
+export const cls = {
+  root: "flex-1 bg-bg",
+  header: "flex-row items-center px-3.5 pb-3 border-b border-b-line bg-bg2",
+  barSide: "flex-1 justify-center items-start",
+  barSideRight: "flex-1 justify-center items-end gap-px",
+  barLogo: "w-29 h-8.5 mx-2.5",
+  barVersion: "text-muted text-[10px] font-roboto-bold",
+  confirmBackdrop: "flex-1 bg-black/60 items-center justify-center p-6",
+  confirmBox: "w-full max-w-90 bg-panel border border-line rounded-lg p-4.5",
+  confirmHead: "flex-row items-center gap-2 mb-3",
+  confirmTitle: "text-gold text-[18px] font-roman tracking-[1px]",
+  confirmBody: "mb-4.5",
+  confirmActions: "flex-row justify-end gap-2.5",
+  confirmGhost:
+    "px-4 h-10 rounded-sm border border-line items-center justify-center",
+  confirmGhostText: "text-fg text-[14px] font-roboto-bold",
+  confirmBtn:
+    "flex-row items-center gap-1.5 px-4 h-10 rounded-sm bg-gold-bright",
+  confirmBtnText: "text-ink text-[14px] font-roboto-bold",
+  scroll: "flex-1",
+  content: "p-4",
+  pageTitle:
+    "text-gold-bright text-[22px] mb-1 font-roman uppercase tracking-[1.5px]",
+  scrollMenu: "absolute right-3.5 items-center gap-2.5",
+  scrollBtn:
+    "w-10.5 h-10.5 rounded-[21px] items-center justify-center border border-line bg-panel2",
+  scrollBtnSm:
+    "w-9.5 h-9.5 rounded-[19px] items-center justify-center border border-line bg-panel2",
+  scrollBtnOpen:
+    "w-10.5 h-10.5 rounded-[21px] items-center justify-center border border-gold bg-panel2",
+  scrollBtnOff:
+    "w-9.5 h-9.5 rounded-[19px] items-center justify-center border border-line bg-panel2 opacity-40",
+  updateBar:
+    "flex-row items-center gap-2.5 px-3.5 py-2.5 bg-gold/14 border-b border-b-gold",
+  updateText: "flex-1 text-fg text-[13px] font-roboto",
+  updateVer: "text-gold-bright font-roboto-bold",
+  hero: "items-center mb-3.5",
+  heroTitle:
+    "text-gold-bright text-[24px] text-center font-roman uppercase tracking-[1.5px]",
+  heroText: "text-fg text-[15px] leading-5.5 font-roboto text-center mt-1.5",
+  versionList: "mt-3.5 gap-3",
+  versionCard: "bg-panel border border-line border-t-3 rounded-md p-3.5 gap-2",
+  versionHead: "flex-row items-center gap-3",
+  versionIcon: "w-10 h-10 rounded-[8px]",
+  versionTitles: "flex-1",
+  versionName: "text-[17px] font-roboto-bold",
+  versionSub: "text-muted text-[12.5px] mt-px font-roboto",
+  versionLatest: "text-muted text-[12.5px] font-roboto",
+  versionSummary: "text-fg text-[13.5px] leading-5 font-roboto",
+  versionCta: "flex-row items-center gap-1.5",
+  versionCtaText: "text-[13px] font-roboto-bold",
+  chooseCard: "bg-panel border border-line border-l-4 rounded-md p-3 mb-2.5",
+  chooseHead: "flex-row items-center gap-2.5 mb-1.5",
+  chooseIcon: "w-7.5 h-7.5 rounded-sm",
+  chooseName: "flex-1 text-gold-bright text-[16px] font-roboto-bold",
+  chooseDesc: "text-muted text-[13.5px] leading-5 font-roboto",
+  storyBox: "bg-panel border border-line rounded-md p-3.5 gap-2.5",
+  supportCard: "mt-4.5 bg-gold/6 border border-gold rounded-md p-3.5",
+  supportHead: "flex-row items-center gap-2 mb-1.5",
+  supportTitle: "text-gold text-[15px] font-roboto-bold",
+  supportDesc: "text-fg text-[13.5px] leading-5 font-roboto mb-3",
+  supportBtnRow: "flex-row items-center gap-2",
+  supportBtn:
+    "flex-1 flex-row items-center justify-center gap-2 h-10 rounded-sm bg-gold-bright",
+  supportBtnText: "text-ink text-[14px] font-roboto-bold",
+  copyBtn:
+    "w-10 h-10 rounded-sm border border-line bg-panel2 items-center justify-center",
+  copyBtnOn:
+    "w-10 h-10 rounded-sm border border-ok bg-panel2 items-center justify-center",
+  vHead: "flex-row items-center gap-3 border-l-4 pl-3 mb-1.5",
+  vIcon: "w-11.5 h-11.5 rounded-[8px]",
+  vName: "text-gold-bright text-[22px] font-roman uppercase tracking-[1.5px]",
+  vSub: "text-muted text-[13.5px] mt-0.5 font-roman tracking-[1px]",
+  vMeta: "flex-row flex-wrap items-center gap-2 mt-2.5",
+  latest: "py-1.5 px-3 rounded-full border border-gold bg-gold/8",
+  latestText: "text-fg text-[12.5px] font-roboto",
+  changelogBtn:
+    "flex-row items-center gap-1.5 py-1.5 px-3 rounded-full border border-line bg-panel2",
+  changelogBtnText: "text-gold-bright text-[12.5px] font-roboto-bold",
+  latestVer: "text-gold-bright font-roboto-bold",
+  drawerBackdrop: "flex-1 bg-black/60 flex-row",
+  drawer: "w-[78%] max-w-80 bg-bg2 border-r border-r-line pb-5",
+  drawerHead:
+    "flex-row items-center gap-3 px-4 pb-3.5 mb-2 border-b border-b-line",
+  drawerLogo: "w-11 h-11",
+  drawerTitle: "text-gold-bright text-[18px] font-roman",
+  drawerBy: "text-gold-dim text-[12px] font-roman uppercase tracking-[1.5px]",
+  navItem: "flex-row items-center gap-3 py-2.75 px-4",
+  navItemIndent: "flex-row items-center gap-3 py-2.75 px-4 pl-7.5",
+  navItemActive: "flex-row items-center gap-3 py-2.75 px-4 bg-gold/8",
+  navDot: "w-6.5 h-6.5 rounded-[13px] items-center justify-center",
+  navDotHollow:
+    "w-6.5 h-6.5 rounded-[13px] items-center justify-center bg-transparent border border-line",
+  navImg: "w-7 h-7 rounded-sm",
+  navName: "text-fg text-[14.5px] flex-1 font-roboto",
+  navNameActive: "text-gold-bright text-[14.5px] flex-1 font-roboto-bold",
+  navTag: "bg-deepsky/18 rounded-[4px] px-1.5 py-0.5",
+  navTagText: "text-deepsky text-[10px] font-roboto-bold",
+  navList: "flex-1",
+  drawerFooter:
+    "flex-row items-center justify-center gap-2 mt-2 mx-4 py-2.75 rounded-sm border border-line bg-gold/8",
+  drawerFooterText: "text-gold text-[14px] font-roboto-bold",
+  upHead: "flex-row items-center gap-3 mb-2.5",
+  upIcon: "w-13 h-13 rounded-sm",
+  upName: "text-gold-bright text-[16px] font-roboto-bold",
+  setItem: "bg-panel border border-line rounded-md p-3.5 mt-3",
+  setHead: "flex-row items-center gap-2 mb-2.5",
+  setTitle: "text-gold-bright text-[15px] font-roboto-bold",
+  setRow: "flex-row items-center justify-between gap-2.5",
+  setValue: "flex-1 text-fg text-[13.5px] font-roboto",
+  setBold: "font-roboto-bold",
+  setBtn:
+    "flex-row items-center justify-center gap-1.5 w-35 h-9.5 rounded-sm bg-gold-bright",
+  setBtnText: "text-ink text-[13.5px] font-roboto-bold",
+  setHint: "text-muted text-[12.5px] leading-4.5 mt-2 font-roboto",
+  setOkRow: "flex-row items-center gap-1.25 mt-2",
+  setOk: "text-ok text-[12.5px] font-roboto",
+  setActions: "flex-row gap-2.5 mt-2.5",
+  setBtnFlex:
+    "flex-row items-center justify-center gap-1.5 h-9.5 rounded-sm bg-gold-bright flex-1",
+  setSelect:
+    "flex-row items-center justify-between h-10 px-3 border border-line rounded-sm bg-panel2",
+  setSelectText: "text-fg text-[13.5px] font-roboto",
+  setOptions: "mt-1.5 border border-line rounded-sm bg-bg2 overflow-hidden",
+  setOption: "flex-row items-center justify-between px-3 py-2.5",
+  setOptionActive:
+    "flex-row items-center justify-between px-3 py-2.5 bg-gold/14",
+  setOptionText: "text-fg text-[13.5px] font-roboto",
+  setOptionTextActive: "text-gold-bright text-[13.5px] font-roboto-bold",
+  donateWrap: "items-center pt-3",
+  donateCard:
+    "w-full max-w-90 items-center bg-panel border border-line rounded-lg p-5",
+  donateHead: "flex-row items-center gap-2 mb-4",
+  donateTitle: "text-gold text-[18px] font-roman tracking-[1px]",
+  donateQr: "w-64 h-64 rounded-md bg-white",
+  donateThanks:
+    "text-gold-bright text-[14px] mt-4 text-center font-roboto-italic",
+  navItemIndentActive:
+    "flex-row items-center gap-3 py-2.75 px-4 pl-7.5 bg-gold/8",
+};
+
+export const shadow = {
+  elevation: 6,
+  shadowColor: "black",
+  shadowOpacity: 0.45,
+  shadowRadius: 7,
+  shadowOffset: { width: 0, height: 4 },
+};

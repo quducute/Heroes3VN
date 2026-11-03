@@ -1,0 +1,111 @@
+@custom-variant laptop (@media (max-width: 1380px));
+@custom-variant wide (@media (min-width: 1700px));
+@custom-variant h1000 (@media (max-height: 1000px));
+@custom-variant h900 (@media (max-height: 900px));
+@custom-variant h800 (@media (max-height: 800px));
+@custom-variant h700 (@media (max-height: 700px));
+@custom-variant h600 (@media (max-height: 600px));
+@custom-variant tablet (@media (max-width: 900px));
+@custom-variant phone (@media (max-width: 600px));
+
+@theme {
+  --color-bg: color-mix(in srgb, burlywood 9%, black);
+  --color-bg2: color-mix(in srgb, navajowhite 12%, black);
+  --color-bar: color-mix(in srgb, burlywood 12%, black);
+  --color-panel: color-mix(in srgb, burlywood 15%, black);
+  --color-panel2: color-mix(in srgb, burlywood 20%, black);
+  --color-line: color-mix(in srgb, burlywood 34%, black);
+  --color-line-hover: color-mix(in srgb, burlywood 49%, black);
+  --color-gold: goldenrod;
+  --color-gold-bright: color-mix(in srgb, gold 89%, black);
+  --color-gold-dark: color-mix(in srgb, goldenrod 78%, black);
+  --color-ink: color-mix(in srgb, goldenrod 15%, black);
+  --color-fg: color-mix(in srgb, cornsilk 90%, black);
+  --color-quote: color-mix(in srgb, cornsilk 82%, black);
+  --color-muted: color-mix(in srgb, wheat 67%, black);
+  --color-dim: color-mix(in srgb, wheat 58%, black);
+  --color-link: color-mix(in srgb, lightskyblue 89%, black);
+  --color-link-hover: lightskyblue;
+  --color-ok: limegreen;
+  --color-error: color-mix(in srgb, salmon 92%, black);
+
+  --font-sans: "Roboto";
+  --font-roman: "Luxurious Roman", "Roboto";
+
+  --default-transition-timing-function: ease;
+
+  --animate-fadein: fadein 0.25s ease;
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+@layer base {
+  :root {
+    --accent: goldenrod;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  button,
+  input,
+  select,
+  textarea,
+  kbd {
+    font-family: inherit;
+  }
+
+  code {
+    font-family: inherit;
+    background: color-mix(in srgb, black 35%, transparent);
+    border: 1px solid var(--color-line);
+    border-radius: 4px;
+    padding: 1px 6px;
+    font-size: 13px;
+    color: khaki;
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-bg);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-line);
+    border-radius: 6px;
+    border: 2px solid var(--color-bg);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-line-hover);
+  }
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://heroes3vn.vercel.app/sitemap.xml

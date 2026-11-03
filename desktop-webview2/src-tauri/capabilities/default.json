@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Cửa sổ chính chỉ gọi các lệnh h3vn của app, không cần quyền core",
+  "windows": ["main"],
+  "permissions": []
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "git": { "deploymentEnabled": false },
+  "installCommand": "unset npm_config_cache_dir NPM_CONFIG_CACHE_DIR && npm ci",
+  "buildCommand": "unset npm_config_cache_dir NPM_CONFIG_CACHE_DIR && npm run build && node scripts/fetchVersions.js",
+  "outputDirectory": "dist",
+  "trailingSlash": true
+}

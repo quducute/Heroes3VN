@@ -1,0 +1,45 @@
+{
+  "name": "heroes3vn-webview2",
+  "productName": "Heroes 3 VN by Gogetto",
+  "version": "2026.11.14",
+  "description": "Tool lưu trữ link tải/mua Heroes 3 mọi phiên bản",
+  "author": "Gogetto",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tauri build --no-bundle && node scripts/renameArtifact.js",
+    "test": "vitest run && cargo test --manifest-path src-tauri/Cargo.toml",
+    "format": "prettier --write . --ignore-path ../.gitignore --ignore-path ../.prettierignore"
+  },
+  "dependencies": {
+    "@fontsource/luxurious-roman": "^5.3.0",
+    "@fontsource/roboto": "^5.3.0",
+    "@tauri-apps/api": "^2.12.4",
+    "@tauri-apps/plugin-opener": "^2.7.3",
+    "country-flag-icons": "^1.6.20",
+    "lucide-react": "^1.72.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.3.5",
+    "@tauri-apps/cli": "^2.12.4",
+    "@vitejs/plugin-react": "^6.3.0",
+    "eslint": "^10.15.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-sonarjs": "^4.2.2",
+    "globals": "^17.14.0",
+    "prettier": "^3.10.1",
+    "tailwindcss": "^4.3.5",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
+  },
+  "overrides": {
+    "eslint-plugin-react": {
+      "eslint": "$eslint"
+    }
+  }
+}

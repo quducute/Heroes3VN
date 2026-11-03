@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+
+# Outputs
+.expo/
+dist/
+gen/
+mobile/android/
+mobile/ios/
+release/
+target/
+*.aab
+*.apk
+*.exe
+*.ipa
+uniwind-types.d.ts
+
+# Caches
+.eslintcache
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# Environment variables
+.env*
+!.env.example
+
+# Signing keys
+*.jks
+*.key
+*.keystore
+*.mobileprovision
+*.p12
+*.p8
+*.pem
+
+# Private scripts
+private/
+
+# Editor
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Desktop.ini
+Thumbs.db

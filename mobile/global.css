@@ -1,0 +1,41 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+@import "uniwind";
+
+@theme {
+  --color-bg: color-mix(in srgb, burlywood 9%, black);
+  --color-bg2: color-mix(in srgb, navajowhite 12%, black);
+  --color-panel: color-mix(in srgb, burlywood 15%, black);
+  --color-panel2: color-mix(in srgb, burlywood 20%, black);
+  --color-line: color-mix(in srgb, burlywood 34%, black);
+  --color-gold: goldenrod;
+  --color-gold-bright: color-mix(in srgb, gold 89%, black);
+  --color-gold-dim: color-mix(in srgb, goldenrod 70%, black);
+  --color-ink: color-mix(in srgb, goldenrod 15%, black);
+  --color-fg: color-mix(in srgb, cornsilk 90%, black);
+  --color-muted: color-mix(in srgb, wheat 67%, black);
+  --color-ok: limegreen;
+  --color-deepsky: deepskyblue;
+
+  --font-roboto: Roboto_400Regular;
+  --font-roboto-italic: Roboto_400Regular_Italic;
+  --font-roboto-bold: Roboto_700Bold;
+  --font-roman: LuxuriousRoman_400Regular;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+}
+
+:root {
+  --fs: 1;
+}
+
+@utility fs-* {
+  font-size: calc(var(--fs) * --value(number) * 1px);
+}
+
+@utility lh-* {
+  line-height: calc(var(--fs) * --value(number) * 4px);
+}

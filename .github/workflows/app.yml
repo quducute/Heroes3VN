@@ -1,0 +1,56 @@
+name: App
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: lts/*
+          cache: npm
+          cache-dependency-path: |
+            desktop/package-lock.json
+            desktop-webview2/package-lock.json
+            mobile/package-lock.json
+
+      - run: npm ci
+        working-directory: desktop
+        env:
+          ELECTRON_SKIP_BINARY_DOWNLOAD: "1"
+
+      - run: npm ci
+        working-directory: desktop-webview2
+
+      - run: npm ci
+        working-directory: mobile
+
+      - run: npx prettier --check . "!web/**"
+
+      - run: npx eslint .
+        working-directory: desktop
+
+      - run: npx eslint .
+        working-directory: desktop-webview2
+
+      - run: npx eslint .
+        working-directory: mobile
+
+      - run: npx vite build
+        working-directory: desktop
+
+      - run: npx vite build
+        working-directory: desktop-webview2
+
+      - run: cargo check --release --locked
+        working-directory: desktop-webview2/src-tauri
+
+      - run: npx expo export
+        working-directory: mobile

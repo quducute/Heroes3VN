@@ -1,0 +1,67 @@
+name: Build Android APK
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apk
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: mobile
+    env:
+      EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+      EAS_PROJECT_ID: ${{ secrets.EAS_PROJECT_ID }}
+      GH_TOKEN: ${{ github.token }}
+      TAG: ${{ inputs.tag }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - run: gh release view "$TAG" --json tagName
+      - uses: actions/setup-node@v7
+        with:
+          node-version: lts/*
+          cache: npm
+          cache-dependency-path: mobile/package-lock.json
+
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - uses: expo/expo-github-action@v9
+        with:
+          eas-version: latest
+
+      - run: npm ci
+
+      - run: npx prettier --check . --ignore-path ../.gitignore --ignore-path ../.prettierignore
+
+      - run: npx eslint .
+
+      - id: version
+        run: echo "value=$(node -p "require('./app.json').expo.version")" >> "$GITHUB_OUTPUT"
+
+      - run: >
+          eas build --local --non-interactive
+          --platform android --profile preview
+          --output "Heroes3VN-Android-v${{ steps.version.outputs.value }}.apk"
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: Heroes3VN-Android-v${{ steps.version.outputs.value }}
+          path: mobile/Heroes3VN-Android-v${{ steps.version.outputs.value }}.apk
+          if-no-files-found: error
+
+      - run: gh release upload "$TAG" "Heroes3VN-Android-v${{ steps.version.outputs.value }}.apk" --clobber
